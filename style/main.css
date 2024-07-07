@@ -28,11 +28,13 @@ body{
     background-color: var(--brand-color-two);
 }
 .header{
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-image: url(../images/developer-01.png);
     background-repeat: no-repeat;
-    background-position:  top left, right bottom;
+    /* background-position: 0px; */
     background-size: contain;
+    
 }
+
 /* nav here --------------------------------------? */
 nav{
     display: flex;
@@ -83,23 +85,29 @@ nav > ul > li a{
     max-width: 1170px;
     margin: auto;
 }
-.banner-content{
-    /* background-color: #FD6E0A; */
-    max-width: 500px;
+
+#banner-cnt{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom right;
 }
 
+.banner-content{
+    max-width: 500px;
+}
 .banner-greetings{
     font-weight: 400;
     font-size: 25px;
     color: var(--brand-color);
-
 }
 .banner-title{
     font-size: 55px;
     color: var(--dark-tow);
 }
 .banner-profile-img{
-    width: 400px;
+    width: 450px;
+    padding-top: 20px;
 }
 .banner-content .banner-description {
     margin: 15px 0px;
@@ -111,7 +119,6 @@ nav > ul > li a{
     color: var(--brand-color);
     margin-left: 12px;
 }
-
 
 
 /* about section here --------------------------------------------------------------------> */
@@ -129,6 +136,8 @@ main{
 .about-cnt{
     background-color: #fff;
     padding: 40px ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
 }
 
 #about-section .section-title{
@@ -263,5 +272,4 @@ form input:focus{
 form textarea{
     border: none;
     padding: 10px 20px;
-
 }

@@ -228,3 +228,43 @@ hr{
 .resume-download{
     margin: 30px 0;
 }
+
+
+
+/* footer-----------------------> */
+footer{
+    background-color: var(--brand-color-two);
+    padding: 50px 0;
+}
+.footer-cnt{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+input[type="text"], footer input[type="email"], footer input [type="textarea"] {
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--white-color);
+    color: var(--dark-tow);
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 3px;
+}
+footer .section-title{
+    padding: 20px 0;
+}
+form textarea:focus,
+form input:focus{
+    outline: 0 !important;
+	box-shadow: none;
+    transition: all 0.5s ease-in-out;
+}
+form textarea{
+    border: none;
+    padding: 10px 20px;
+}

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+/* img{
+    width: 100%;
+} */
+:root{
+    --brand-color: #FD6E0A;
+    --brand-color-two: #FFF8F3;
+    --black-color: #181818;
+    --white-color: #fff;
+    --dark-tow: #474747;
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+/* header here ---------------------------------------------------------------> */
+.header{
+    background-color: var(--brand-color-two);
+
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:  top left, right bottom;
+    background-size: contain;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+    padding: 10px 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    font-weight: 800;
+    font-size: 30px;
+}
+.nav-logo span{
+    color: var(--brand-color);
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li a{
+    color: var(--dark-tow);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 8px 18px;
+}
+.btn-primary{
+    border: none;
+    background-color: var(--brand-color);
+    padding: 8px 15px;
+    color: var(--white-color);
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+/* banner ------------------------------------------------------> */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+}
+.banner-content{
+    /* background-color: #FD6E0A; */
+    max-width: 500px;
+}
+
+.banner-greetings{
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--brand-color);
+
+}
+.banner-title{
+    font-size: 55px;
+    color: var(--dark-tow);
+}
+.banner-profile-img{
+    width: 400px;
+}
+.banner-content .banner-description {
+    margin: 15px 0px;
+    font-size: 15px;
+}
+.btn-contact{
+    border: 1px solid var(--brand-color);
+    background-color: var(--brand-color-two);
+    color: var(--brand-color);
+    margin-left: 12px;
+}
+
+
+
+/* about section here --------------------------------------------------------------------> */
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#about-section{
+    padding: 100px ;
+    text-align: center;
+    background-color: var(--brand-color-two);
+    margin: 100px 0;
+}
+.about-cnt{
+    background-color: #fff;
+    padding: 40px ;
+}
+
+#about-section .section-title{
+    font-weight: bold;
+    /* font-size: 35; */
+    color: var(--dark-tow);
+}
+#about-section .section-description{
+    font-size: 15px;
+    margin: 30px 0;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-section .item-description{
+    font-weight: 600;
+}
+
+
+
+
+/* what i do --------------------------------------------> */
+.skills{
+    padding: 50px 0;
+}
+.skills .section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.skills .section-description{
+    font-size: 15px;
+}
+
+.skills .skills-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+}
+.skills-container .skill{
+    padding: 50px 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    color: var(--dark-tow);
+}
+.skills .skill-title{
+    margin: 15px 0;
+}
+.skills .skill-description{
+    font-size: 14px;
+    color: var(--dark-tow);
+}
+
+
+
+/* resume  ---------------------------------*/
+.resume{
+    padding: 50px 0;
+}
+.resume .section-title{
+    margin: 25px 0;
+    font-size: 25px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+.resume-title,
+.experience-sub-title,
+.experience-description{
+    color: var(--dark-tow);
+}
+/* experience-title */
+.experience-title,
+.resume-title{
+    margin: 10px 0;
+}
+.experience-sub-title{
+    margin: 5px 0;
+}
+.resume .experience-description{
+    font-size: 15px;
+    margin: 15px 0;
+}
+hr{
+    color: #ffffff;
+}
+.resume-download{
+    margin: 30px 0;
+}

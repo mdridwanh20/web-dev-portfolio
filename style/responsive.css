@@ -1,0 +1,24 @@
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, .footer-cnt{
+        flex-direction: column;
+    }
+    
+    .about-items {
+        flex-direction: column;
+    }
+
+    #about-section {
+        padding: 20px;
+        text-align: center;
+        background-color: var(--brand-color-two);
+    }
+    .banner {
+        flex-direction: column-reverse;
+        padding-bottom: 100px;
+    }
+
+    nav, ul{
+        flex-direction: column;
+    }
+
+}
